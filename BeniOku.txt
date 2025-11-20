@@ -1,0 +1,18 @@
+Proje kapsamında bazı durumlar açık uçlu bırakıldı ve  farklılıklar oluştuğu için yapma biçimiyle ilgili bilgiler içermektedir.
+
+1-Projede kendi takvimimi belirlediğim için gün sayısı 1-2 gün fark edebilir.
+(Belirleme metodu kendi takvimimi oluşturdum her ay için atamaları 30-31 gün olarak atadım şubat ayı içinde 28gün ataması yaptim. -Zaman Sınıfı Takvim Hashmap içerisinde-)
+
+2- Kişinin simülasyon boyunca kalan ömürü azalır.
+(Zaten mantıklı olanda budur kalan ömrü uçuş tamamlansa bile gezegende azalmaya devam etmelidir.)
+
+3-Bir araç vardıktan sonra görevini tamamladığı için eğer vardıktan sonra bu araçla gezegene gelen kişiler ölürse araç IMHA olMAyacaktır.
+(Bu durum zaten mantıksız sonuç doğuruyor.Görevini tamamlayan Araç neden imha olsun?)
+
+4-Eğer bir aracın Kalkış zamanı gezegeninin Başlangıç zamanından önceyse Araç direkt IMHA olur.
+(Bu araç hiç bir zaman kalkmayacağı için programa katılan herkesi öldürmeden program tamamlanmayacağı durumu oluşturduğu için Eğer bir araç kalkış zamanını bulunduğu gezegenin zamanından önceyse direkt imha olur.)
+
+Ödevde bu detaylar belirtilmediği için bu detayları bu şekilde yorumlayıp uyguladım. Buna göre kontrol edilmesini talep ederim.
+
+Ekstra: Ödev içerisinde debug işlemleri için kullandığım hizli mod ayarı da vardır. Eğer istenirse UzaySimulasyonuH.jar açilip hizli direkt sonuca götüren jar dosyası çalıştırılabilir.
+Eğer istenirse Program sınıfı içersinde main metodunda yorum satırı yeri değiştirilip hizli bi şekilde sonuca ulaşılabilir.
